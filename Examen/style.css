@@ -1,0 +1,317 @@
+*{
+    border: 1px dotted rgba(255, 0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+}
+.informacion{
+    display: flex;
+    align-items: center;   
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 1000px;
+    background-color: white;
+}
+
+.informacion>h3{
+    background-color: white;
+}
+
+.col{
+    display: flex;
+    flex: 1;
+    /* padding: 20px; */
+    margin: 10px;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    text-align: right;
+    align-items: flex-end;
+    background-color: white;
+}
+.col>label{
+    background-color: white;
+}
+.logo{
+    font-style: italic;
+    background-color: red;
+    color: white; 
+    display: flex;
+    height: 50px;
+    width: 130px;
+    justify-content: center;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+.cabezera{
+    background-color: black;
+}
+.hd-content{
+    background-color: black;
+    display:flex;
+    margin: 0 auto;
+    padding: 0;
+    height: 50px;
+    width: 1000px;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+    background-color: black;
+}
+.links>span{
+    margin-left: 30px;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.opciones{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black
+}
+.opciones>img{
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: black
+}
+.cuerpo-fondo{
+    height: auto;
+}
+
+.cuerpo{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.columna-1{
+    flex: 1;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.titulo{
+    margin: 20px;
+    background-color: white;
+}
+
+.str{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.str>h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+.stories{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid grey;
+    background-color: white;
+}
+.stories>span{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.panel>h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+
+#signin{
+    color: white;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    height: 30px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+#signup{
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    height: 30px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.subscribe{
+    display: flex;
+    margin: 20px;
+}
+
+.subscribe>button{
+    color: black;
+    background-color:wheat;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    height: 30px;
+    width: 100%;
+}
+
+.columna-2{
+    flex: 2;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: fit-content;
+}
+.live-logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color: white;
+}
+.game{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.game>h1{
+    margin-right: 30px;
+    background-color: white;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.live{
+    color: red;
+    background-color: white;
+}
+.match{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.versus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.versus>p{
+    background-color: white;
+}
+#vs{
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: white;
+}
+
+.location{
+    font-weight: bold;
+    background-color: white;
+}
+
+#ninja-team{
+    color: darkcyan;
+    background-color: white;
+}
+#pirate-team{
+    color: darkred;
+    background-color: white;
+}
+
+.rate{
+    font-weight: lighter;
+    background-color: white;
+}
+
+.score{
+    background-color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.team-logo{
+    width: 180px;
+    background-color: white;
+}
+
+#linea{
+    margin: 30px ;
+    width: auto;
+    height: 4px;
+    background-color: darkgray;
+
+}
+
+.comentario{
+    margin: 30px 0px 30px 30px;
+    background-color: white;
+}
+
+.comentario>p{
+    background-color: white;
+}
+
+#redirect{
+    background-color: white;    
+}

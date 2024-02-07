@@ -1,0 +1,24 @@
+h1{
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+span{
+    color: cyan;
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: purple;
+}
+h3{
+    font-family: sans-serif;
+    color: blueviolet;
+    background-color: rgb(123, 196, 255);
+    text-align: right;
+    font-weight: lighter;
+    text-decoration: underline;
+}
