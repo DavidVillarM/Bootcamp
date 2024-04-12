@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <h1>David Villar Morinigo</h1>
+        <img src="imgs/profile.jpg" alt="profile pic" style="height: 80px;width: 80px;margin-bottom: 10px;">
+        <div style="margin-bottom: 10px;">
+            <img src="imgs/github.png" alt="Github logo" style="height: 20px;width: 20px;">
+            <a href="https://github.com/DavidVillarM">my GitHub</a>
+            <img src="imgs/LinkedIn.png" alt="Linkedin logo" style="height: 20px;width: 20px;">
+            <a href="https://es.linkedin.com/">Linked in</a>
+            <img src="imgs/Gmail.png" alt="Gmail logo" style="height: 20px;width: 25px;">
+            <a href="davimori757@gmail.com">My Email</a>
+        </div>
+        <table border="1">
+            <h3 style="margin-bottom: 5px;">Tecnologies</h3>
+            <tr>
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>Javascript</th>
+                <th>Database</th>
+                <th>Concepts</th>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>Django</td>
+                <td>Express</td>
+                <td>MySQL</td>
+                <td>AJAX</td>
+            </tr>
+            <tr>
+                <td>CSS3</td>
+                <td>Flask</td>
+                <td>Mongoose</td>
+                <td>MongoDB</td>
+                <td>OOP</td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td>Unittest</td>
+                <td>React</td>
+                <td></td>
+                <td>REST</td>
+            </tr>
+        </table>
+
+        <h3 style="margin-bottom: 5px;">Gestor de Tareas</h3>
+        <img src="imgs/code.png" alt="code" style="height: 60px;width: 60px;border: 1px solid gray;">
+        <p>Social media App made in Javascript - <a href="https://github.com/DavidVillarM/Gestor-de-Tareas">code</a> | <a href="https://davidvillarm.github.io/Gestor-de-Tareas/">deploy</a></p>
+        
+        <form action="/process" method="post">
+            <h3 style="margin-bottom: 5px;">Contact Me</h3>
+            <div>
+                <label>Name: </label> 
+                <input type="text" name="name" 
+                placeholder="" >
+                <label>Email: </label>
+                <input type="text" name="email" 
+                placeholder="" >
+                
+            <div style="margin-top: 5px; margin-bottom: 5px; display: flex;">
+                <label style="left: 50px;">Message: </label>
+                <textarea name="comment" id="comentario" cols="50" rows="4"></textarea>
+            </div>
+            <input type="submit" value="Send Message">
+        </form>
+    </body>
+</html>

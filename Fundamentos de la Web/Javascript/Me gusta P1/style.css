@@ -1,0 +1,22 @@
+.cuadro{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#like{
+    font-size: larger;
+}
+#bot-like{
+    height: 30px;
+    width: 60px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black ;
+    background-color: wheat;
+    filter: drop-shadow(3px 3px black);
+}

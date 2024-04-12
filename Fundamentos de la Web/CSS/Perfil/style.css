@@ -1,0 +1,308 @@
+*{
+    border: 1px dotted rgb(255, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+}
+
+.cabezera{
+    background-color: black;
+}
+.hd-content{
+    background-color: black;
+    display:flex;
+    margin: 0 auto;
+    padding: 0;
+    height: 50px;
+    width: 1000px;
+    align-items: center;
+}
+.links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+    background-color: black;
+}
+.links>h1{
+    background-color: black;
+    color:white
+}
+.links>span{
+    margin-left: 30px;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.opciones{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black
+}
+.opciones>h3{
+    height: 30px;
+    width: 100px;
+    margin-right: 30px;
+    display: flex;
+    color: white;
+    background-color: aqua;
+    justify-content: center;
+}
+.cuerpo-fondo{
+    height: auto;
+}
+
+.cuerpo{
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.columna-1{
+    flex: 2;
+}
+.perfil{
+    background-color: white;
+    height: 120px;
+    margin: 0;
+}
+.perfil>div{
+    background-color: aqua;
+    height: 80px;
+}
+.perfil>img{
+    border-radius: 50%;
+    height: 80px; 
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+
+.panel{
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.titulo{
+    margin: 20px;
+    background-color: white;
+}
+
+.str{
+    display: flex;
+    flex-direction: column;
+    background-color: white;;
+}
+.str>h2{
+    margin-left: 20px;
+    background-color: white;
+}
+.datos{
+    margin:20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.ubicacion{
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ubicacion>img{
+    background-color: white;
+    height: 20px;
+}
+
+.ubicacion>span{
+    background-color: white;
+    margin-left: 5px;
+    font-size:larger;
+}
+
+.datos>span{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.panel>h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.edit_profile{
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.edit_profile>img{
+    background-color: white;
+    height: 20px;
+}
+
+.edit_profile>a{
+    background-color: white;
+    height: 20px;
+    margin-left: 5px;
+    text-align: center;
+    align-self: center;
+}
+
+.educacion{
+    background-color: rgb(41, 41, 41);
+}
+.titulo>h4{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.edu_info{
+    background-color: white;
+}
+.edu_info>div{
+    margin: 20px;
+}
+#logros{
+    background-color: white;
+}
+#logros>h4{
+    background-color: white;
+}
+#logros>p{
+    background-color: white;
+    margin-top: 10px;
+}
+
+/*------------COLUMNA 2------------*/
+
+.columna-2{
+    flex: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.req_title{
+    display: flex;
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+    align-items: center;
+}
+
+.requests{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peticiones{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#solicitudes{
+    background-color: white;
+}
+
+.perf_soli{
+    background-color: white;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.perf_soli>h3{
+    background-color: white;
+    display: flex;
+    margin-left: 20px;
+    
+}
+.perf_img{
+    background-color: white;
+    height: 50px;
+    border-radius: 50%;
+}
+.act_button{
+    height: 40px;
+    margin-left: 10px;
+}
+
+.botones{
+    background-color: white;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.connect{
+    margin-top: 20px;
+}
+
+#con_num{
+    width: auto;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con_request{
+    background-color: white;
+}
+
+.perf_connect{
+    background-color: white;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.perf_connect>h3{
+    background-color: white;
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.view_more{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#more{
+    background-color: white;
+    margin-left: 20px;
+}

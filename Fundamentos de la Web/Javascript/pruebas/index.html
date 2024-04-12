@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas</title>
+    <link rel="stylesheet" href="style.css" defer/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="title">Hola, mundo</h1>
+    <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+    <img src="" alt="pet" id="pet-img" />
+    <button onclick="switchImg()">Switch</button>
+    <button onclick="setActive(this)">Cambiar al modo oscuro</button>
+    <label>Me gustaría comer </label>
+    <select onchange="escogeralmuerzo(this)">
+        <option>Tacos</option>
+        <option>Pasta</option>
+        <option>Sushi</option>
+    </select>
+
+    <div class="card">
+        <p>Hola, mi nombre es:</p>
+        <h3 id="name-tag">Ejemplo</h3>
+    </div>
+    <input type="text" value="Ejemplo" oninput="setName(this)">
+
+    
+</body>
+<script src="script.js"></script>
+</html>
