@@ -1,0 +1,72 @@
+.content_error {
+text-align: center;
+}
+
+.img_sky {
+width: 500px;
+height: auto;
+}
+
+/* styles/luke.css */
+.nav {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.nav > div {
+padding: 50px;
+}
+
+select {
+padding: 8px;
+font-size: 16px;
+border-radius: 5%;
+border: none;
+outline: none;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.123);
+}
+
+button {
+padding: 8px 16px;
+font-size: 16px;
+cursor: pointer;
+background-color: #007bff;
+color: #ffffff;
+border: none;
+border-radius: 4px;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+.person-details {
+margin-top: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.person-details h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.person-details p {
+margin: 8px 0;
+}
+
+.default-details {
+margin-top: 20px;
+font-size: 20px;
+color: #888;
+}
+
+.inputId {
+padding: 8px;
+border-radius: 6%;
+border: none;
+outline: none;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.123);
+}
